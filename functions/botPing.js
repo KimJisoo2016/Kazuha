@@ -1,0 +1,1 @@
+module.exports=async d=>{let a=d.util.aoiFunc(d);a.result=d.client.ws.ping;return{code:d.util.setCode(a)};}
