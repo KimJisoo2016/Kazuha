@@ -48,9 +48,6 @@ $onlyPerms[administrator;You must have the \`administrator\` permission to use t
   {footer: ID#COLON# $slashOption[user]}
   {color: #2c2d31}
   {timestamp}};$slashOption[user];false]
-  
-$onlyIf[$checkCondition[$rolePosition[$highestRole[$clientID]]<$rolePosition[$highestRole[$slashOption[user]]]]!=false;{options:{ephemeral: true}}{extraOptions:{interaction:true}}{newEmbed:{description:I cannot ban someone with a higher role than mine.}{color:#000000}}]
-
 
   $onlyPerms[banmembers;You must have the \`ban members\` permission to use this command!]
   `
